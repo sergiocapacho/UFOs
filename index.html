@@ -43,23 +43,23 @@
                 <ul class="bg-dark">
                   <li class="bg-dark" {style="font-family: inherit; font-size: 1rem;"} >
                     <label for="date">Enter Date</label>
-                    <input type="text" placeholder="1/10/2010" id="datetime" />
+                    <input type="text" placeholder="1/10/2010" id="datetime" onchange=handleClick(this.value) />
                   </li>
                   <li class="bg-dark" >
                       <label for="text"> Enter a City</label>
-                      <input type="text" placeholder="benton" id="city" /> 
+                      <input type="text" placeholder="benton" id="city" onchange=handleCity(this.value) /> 
                   </li>
                   <li class="bg-dark" >
                     <label for="text"> Enter a State</label>
-                    <input type="text" placeholder="ar" id="state" /> 
+                    <input type="text" placeholder="ar" id="state" onchange=handleState(this.value) /> 
                 </li>
                 <li class="bg-dark" >
                     <label for="text"> Enter a Country</label>
-                    <input type="text" placeholder="us" id="country" /> 
+                    <input type="text" placeholder="us" id="country" onchange=handleCountry(this.value) /> 
                 </li>
                 <li class="bg-dark" >
                     <label for="text"> Enter a Shape</label>
-                    <input type="text" placeholder="circle" id="shape" /> 
+                    <input type="text" placeholder="circle" id="shape" onchange=handleShape(this.value) /> 
                 </li>
 
 
